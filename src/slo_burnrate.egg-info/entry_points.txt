@@ -1,0 +1,2 @@
+[console_scripts]
+slo-burnrate = slo_burnrate.cli:main

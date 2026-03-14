@@ -1,3 +1,19 @@
+Metadata-Version: 2.4
+Name: slo-burnrate
+Version: 0.1.0
+Summary: Small utilities for error budgets and burn rates
+Author-email: Kiteframe Systems <theeviecue@proton.me>
+License: MIT
+Keywords: sre,slo,error-budget,burn-rate,reliability
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: psycopg[binary]>=3.1.18
+Requires-Dist: requests>=2.31.0
+Dynamic: license-file
+
 # slo-burnrate
 
 Small utilities for error budgets and burn rates, with a boring integration contract.
