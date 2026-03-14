@@ -24,6 +24,8 @@ Secrets:
 - Always user-supplied via environment variables (recommended) or explicit flags.
 - CLI will not persist secrets.
 
+JSON output includes a `schemaVersion` field for forward compatibility.
+
 Backends must provide either:
 - `good_count` and `total_count`, or
 - a `good_fraction`.

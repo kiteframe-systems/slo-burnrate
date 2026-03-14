@@ -52,7 +52,7 @@ def _compute_windows(
             }
         )
 
-    return {"windows": rows, "overall": overall}
+    return {"schemaVersion": 1, "windows": rows, "overall": overall}
 
 
 def _add_common(p: argparse.ArgumentParser) -> None:
